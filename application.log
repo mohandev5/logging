@@ -1,0 +1,32 @@
+2023-06-26T18:12:29.629+05:30  INFO 5494 --- [main] com.example.logging.LoggingApplication   : Starting LoggingApplication using Java 20.0.1 with PID 5494 (/home/mohan/Downloads/logging/target/classes started by mohan in /home/mohan/Downloads/logging)
+2023-06-26T18:12:29.631+05:30  INFO 5494 --- [main] com.example.logging.LoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-26T18:12:30.188+05:30  INFO 5494 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-26T18:12:30.194+05:30  INFO 5494 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-26T18:12:30.195+05:30  INFO 5494 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-06-26T18:12:30.238+05:30  INFO 5494 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-26T18:12:30.238+05:30  INFO 5494 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 583 ms
+2023-06-26T18:12:30.443+05:30  INFO 5494 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-26T18:12:30.448+05:30  INFO 5494 --- [main] com.example.logging.LoggingApplication   : Started LoggingApplication in 1.138 seconds (process running for 1.305)
+2023-06-26T18:12:36.935+05:30  INFO 5494 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-26T18:12:36.935+05:30  INFO 5494 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-26T18:12:36.936+05:30  INFO 5494 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-26T18:12:36.948+05:30  INFO 5494 --- [http-nio-8080-exec-1] c.e.l.controller.MessageController       : get message
+2023-06-26T18:12:36.948+05:30  WARN 5494 --- [http-nio-8080-exec-1] c.e.l.controller.MessageController       : warning messages
+2023-06-26T18:12:36.948+05:30 ERROR 5494 --- [http-nio-8080-exec-1] c.e.l.controller.MessageController       : error occurred
+2023-06-26T18:12:36.948+05:30 DEBUG 5494 --- [http-nio-8080-exec-1] c.e.l.controller.MessageController       : you should debug your code
+2023-06-26T18:17:59.198+05:30  INFO 5676 --- [main] com.example.logging.LoggingApplication   : Starting LoggingApplication using Java 20.0.1 with PID 5676 (/home/mohan/Downloads/logging/target/classes started by mohan in /home/mohan/Downloads/logging)
+2023-06-26T18:17:59.200+05:30  INFO 5676 --- [main] com.example.logging.LoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-26T18:17:59.697+05:30  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-26T18:17:59.704+05:30  INFO 5676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-26T18:17:59.704+05:30  INFO 5676 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-06-26T18:17:59.747+05:30  INFO 5676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-26T18:17:59.747+05:30  INFO 5676 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 521 ms
+2023-06-26T18:17:59.934+05:30  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-26T18:17:59.940+05:30  INFO 5676 --- [main] com.example.logging.LoggingApplication   : Started LoggingApplication in 1.011 seconds (process running for 1.16)
+2023-06-26T18:18:07.653+05:30  INFO 5676 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-26T18:18:07.653+05:30  INFO 5676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-26T18:18:07.654+05:30  INFO 5676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-26T18:18:07.673+05:30  INFO 5676 --- [http-nio-8080-exec-1] c.e.l.controller.MessageController       : [getMessage] info message
+2023-06-26T18:18:07.673+05:30  WARN 5676 --- [http-nio-8080-exec-1] c.e.l.controller.MessageController       : [getMessage] warning messages
+2023-06-26T18:18:07.673+05:30 ERROR 5676 --- [http-nio-8080-exec-1] c.e.l.controller.MessageController       : [getMessage] error message
+2023-06-26T18:18:07.674+05:30 DEBUG 5676 --- [http-nio-8080-exec-1] c.e.l.controller.MessageController       : [getMessage] debug message
